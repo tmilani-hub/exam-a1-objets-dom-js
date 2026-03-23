@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sora:wght@100..800&display=swap");
+
+:root {
+	--original-background: #ee4266;
+	--original-button: #3bceac;
+	--original-text: #ffffff;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Sora", sans-serif;
+	color: var(--original-text);
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--original-background);
+}
+
+main {
+	width: 80%;
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+h1 {
+	width: 100%;
+	font-size: 56px;
+	font-weight: 400;
+}
+
+h5 {
+	width: 100%;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+p {
+	width: 100%;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	gap: 4px;
+	text-align: end;
+}
+
+button {
+	max-width: max-content;
+	font-weight: 400;
+	font-size: 20px;
+	border-radius: 8px;
+	border: 2px solid white;
+	padding: 16px 12px;
+	background-color: var(--original-button);
+}
+
+button:hover {
+	opacity: 0.7;
+	border-color: red;
+}
+
+button:active {
+	border-color: yellow;
+}
