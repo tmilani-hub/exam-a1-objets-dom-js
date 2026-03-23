@@ -50,6 +50,11 @@ p {
 	font-size: 16px;
 }
 
+span {
+	font-weight: 600;
+	font-size: 20px;
+}
+
 section {
 	width: 100%;
 	display: flex;
